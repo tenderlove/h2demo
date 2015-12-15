@@ -1,9 +1,12 @@
 source 'https://rubygems.org'
 
-gem 'rails', path: "/Users/aaron/git/rails"
+#gem 'rails', path: "/Users/aaron/git/rails"
+gem 'rails', github: "tenderlove/rails", :branch => 'rack2'
 gem 'sprockets-rails', github: "rails/sprockets-rails"
 gem 'arel', github: "rails/arel"
-gem 'rack', path: "/Users/aaron/git/rack"
+gem 'rack', github: "tenderlove/rack", :branch => 'rack2'
+gem 'sprockets', github: "tenderlove/sprockets", :branch => 'rack2'
+gem 'sprockets-rails', github: "tenderlove/sprockets-rails", :branch => 'rack2'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
